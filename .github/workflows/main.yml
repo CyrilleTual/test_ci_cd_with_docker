@@ -31,4 +31,4 @@ jobs:
                   context: .
                   file: ./Dockerfile
                   push: true
-                  tags: $/test_ci_cd:latest
+                  tags: test_ci_cd:latest
