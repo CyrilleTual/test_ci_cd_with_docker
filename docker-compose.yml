@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  test_ci_cd:
+    image: cyrilletual/test_ci_cd
+    ports:
+      - '3001:3000'
+    labels:
+      - 'com.centurylinklabs.watchtower.enable=true'
