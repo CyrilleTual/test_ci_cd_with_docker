@@ -4,6 +4,7 @@ on: # specify the build to trigger the automated ci/cd
     push:
         branches:
             - "production"
+    workflow_dispatch:
 
 jobs:
     build:
